@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hair Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section id="banner">
+    <img src="images/logo.png" alt="" class="logo">
+    <div class="banner-text">
+        <h1>Hair Studio</h1>
+        <p>Styling Your Hair Is Styling Your Life</p>
+        <div class="banner-btn">
+        <a href="#"><span></span>Find Out</a>
+        <a href="#"><span></span>Read More</a>
+        </div>
+    </div>
+</section>
+<div id="sideNav">
+    <nav>
+        <ul>
+            <li><a href="#banner">HOME</a></li>
+            <li><a href="#feature">FEATURES</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#testimonial">TESTIMONIALS</a></li>
+            <li><a href="#footer">MEET US</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="menuBtn">
+    <i class="fa fa-align-justify" id="menu"></i>
+</div>
+<!--==================================================== Features ============================================-->
+<section id="feature">
+    <div class="title-text">
+        <p>FEATURES</p>
+        <h1>Why Choose Us?</h1>
+    </div>
+    <div class="features">
+        <div class="features-text">
+        <h1>Experienced Staff</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos et totam. Ab accusamus adipisci harum maxime quisquam sapiente sed?</p>
+        </div>
+        <img src="images/beauty.jpg" alt="">
+    </div>
+</section>
+<!--=============================================== Services ===============================================-->
+<section id="service">
+    <div class="title-text">
+        <p>SERVICES</p>
+        <h1>We Provide Better</h1>
+    </div>
+    
+    <div class="service-box">
+        <div class="single-service">
+            <img src="images/pic1.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h1>Hair Styling</h1>
+                <hr>
+<!--                it draws a line-->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum magnam maiores, maxime molestias non nulla ratione repellendus sequi totam voluptatum.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/pic2.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h1>Hair Styling</h1>
+                <hr>
+                <!--                it draws a line-->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum magnam maiores, maxime molestias non nulla ratione repellendus sequi totam voluptatum.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/pic3.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h1>Hair Styling</h1>
+                <hr>
+                <!--                it draws a line-->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum magnam maiores, maxime molestias non nulla ratione repellendus sequi totam voluptatum.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/pic4.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h1>Hair Styling</h1>
+                <hr>
+                <!--                it draws a line-->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum magnam maiores, maxime molestias non nulla ratione repellendus sequi totam voluptatum.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--============================================== Testimonial ==================================================-->
+<section id="testimonial">
+    <div class="title-text">
+        <p>TESTIMONIAL</p>
+        <h1>Our Clients Say</h1>
+    </div>
+    <div class="testimonial-row">
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="images/prof1.jpg" alt="image">
+                <h4>Emma</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolore doloremque earum eos expedita.</p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="images/prof2.jpg" alt="image">
+                <h4>Diana</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolore doloremque earum eos expedita.</p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="images/prof4.jpg" alt="image">
+                <h4>Daniel</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolore doloremque earum eos expedita.</p>
+        </div>
+    </div>
+</section>
+<!--================================================= footer =============================================-->
+<section id="footer">
+    <div class="title-text">
+        <p>CONTACT US</p>
+        <h1>Visit Shop Today</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Hours</h1>
+            <p>Monday to Friday - 9am to 6pm</p>
+            <p>Saturday - 9am to 11am</p>
+        </div>
+        <div class="footer-right">
+            <h1>Get in Touch</h1>
+            <p>#36, Via Roma, Milan</p>
+            <p>VisionAcademyTutorial@gmail.com</p>
+            <p>+39123456789</p>
+        </div>
+    </div>
+</section>
+
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var menu = document.getElementById("menu")
+    var sideNav = document.getElementById("sideNav")
+    sideNav.style.right === "-200px"
+    menuBtn.onclick = function () {
+        if (sideNav.style.right === "-200px"){
+            sideNav.style.right = "0"
+        }
+        else{
+            sideNav.style.right = "-200px"
+        }
+    }
+</script>
+</body>
+</html>
